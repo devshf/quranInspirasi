@@ -1,0 +1,19 @@
+.navbar-nav.img {
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-main {
+    color: white;
+    background-color: #3C6255;
+}
+
+.btn-main:hover {
+    background-color: #EAE7B1;
+    color: #3C6255;
+}
