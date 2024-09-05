@@ -1,0 +1,110 @@
+:root {
+    --navy: #164863;
+    --white: #fff;
+    --blue: #0111FF;
+    --softgray: #F3F5F7;
+    --softgray2: #CCD8E1;
+    --gray: #727379;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+}
+
+.quotes-title{
+    color: #EAE7B1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.deskripsi-quotes{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    color: #3C6255;
+    font-weight: 500;
+}
+
+
+/* Menghapus warna biru pada tombol accordion */
+.accordion-button:not(.collapsed) {
+    background-color: transparent; 
+    color: inherit; 
+}
+
+/* Mengatur gaya tombol ketika dibuka */
+.accordion-button {
+    background-color: transparent; 
+    color: inherit; 
+}
+
+/* Hover */
+.accordion-button:hover {
+    background-color: #EAE7B1;
+    color: #3C6255;
+}
+
+.hero-section h4 {
+    color: #EAE7B1;
+    font-weight: 700;
+}
+
+.hero-section h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.hero-section p{
+    color: white;
+    
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+/* .card-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.btn-main {
+    color: white;
+    background-color: #3C6255;
+}
+
+.btn-main:hover {
+    background-color: #EAE7B1;
+    color: #3C6255;
+    font-weight: bold;
+}
+
+.input-group .form-control {
+    height: 50px; 
+    font-size: 16px; 
+}
+
+.input-group-text {
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
