@@ -1,9 +1,9 @@
 :root {
     --navy: #164863;
     --white: #fff;
-    --blue: #0111FF;
-    --softgray: #F3F5F7;
-    --softgray2: #CCD8E1;
+    --blue: #0111ff;
+    --softgray: #f3f5f7;
+    --softgray2: #ccd8e1;
     --gray: #727379;
     --fwbold: 700;
     --fwextrabold: 800;
@@ -13,8 +13,8 @@
     --fwlight: 300;
 }
 
-.quotes-title{
-    color: #EAE7B1;
+.quotes-title {
+    color: #eae7b1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.deskripsi-quotes{
+.deskripsi-quotes {
     color: white;
     display: flex;
     flex-direction: column;
@@ -31,32 +31,50 @@
     text-align: center;
 }
 
-.content{
-    color: #3C6255;
+.content {
+    color: #3c6255;
     font-weight: 500;
+    font-size: 14px;
 }
 
+.hero-section {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh; /* Pastikan section menutupi layar penuh */
+}
+
+.hero-section .col-lg-6 {
+    padding-top: 50px; 
+}
+
+.hero-section {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
 
 /* Menghapus warna biru pada tombol accordion */
 .accordion-button:not(.collapsed) {
-    background-color: transparent; 
-    color: inherit; 
+    background-color: transparent;
+    color: inherit;
 }
 
 /* Mengatur gaya tombol ketika dibuka */
 .accordion-button {
-    background-color: transparent; 
-    color: inherit; 
+    background-color: transparent;
+    color: inherit;
 }
 
 /* Hover */
 .accordion-button:hover {
-    background-color: #EAE7B1;
-    color: #3C6255;
+    background-color: #eae7b1;
+    color: #3c6255;
 }
 
 .hero-section h4 {
-    color: #EAE7B1;
+    color: #eae7b1;
     font-weight: 700;
 }
 
@@ -65,9 +83,8 @@
     font-weight: 700;
 }
 
-.hero-section p{
+.hero-section p {
     color: white;
-    
 }
 
 .card {
@@ -83,22 +100,24 @@
 
 .btn-main {
     color: white;
-    background-color: #3C6255;
+    background-color: #3c6255;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .btn-main:hover {
-    background-color: #EAE7B1;
-    color: #3C6255;
+    background-color: #eae7b1;
+    color: #3c6255;
     font-weight: bold;
 }
 
 .input-group .form-control {
-    height: 50px; 
-    font-size: 16px; 
+    height: 50px;
+    font-size: 14px;
 }
 
 .input-group-text {
-    height: 50px; 
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;

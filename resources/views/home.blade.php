@@ -17,33 +17,37 @@
 
 <body>
     @include('navbar')
-    <div class="container">
+    
         <!-- Hero Section -->
-        <section class="hero-section">
+         <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6 mt-3 mb-4">
+                <!-- Left Column (Text) -->
+                <div class="col-lg-6 col-md-12 mt-3 mb-4">
                     <div class="card">
-                        <div class="card-text">
+                        <div class="card-body">
                             <h4 class="sub-title mt-5">Daily Quran Motivation</h4>
                             <h1 class="title mt-3">Discover the Beauty of the Quran</h1>
                             <p class="ayat-hero-section mt-4 mb-4">“Agar kamu tidak putus asa atas apa yang luput darimu dan tidak bermegah atas apa yang diberikan-Nya kepadamu. Dan Allah tidak menyukai setiap orang yang sombong dan membanggakan diri” - Q.S Hadid Ayat 23</p>
                             <button class="btn btn-main" type="submit">Baca Selengkapnya</button>
                         </div>
-
                     </div>
                 </div>
-                <div class="col-lg-6 mt-3 mb-4">
-                    <div class="card">
-                        <div class="card-images">
-                            <a class="hero-image-container" href="#">
-                                <img src="asset/gradasi-test.png" class="hero-image" height="600" alt="">
-                            </a>
-                        </div>
+                <!-- Right Column (Image) -->
+                <div class="col-lg-6 col-md-12 position-relative p-0">
+                    <div class="card-images">
+                        <a class="hero-image-container" href="#">
+                            <img src="asset/gradasi-test.png" class="hero-image img-fluid" alt="Hero Image">
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+
+        <div class="container">
         <!-- Quotes Section -->
         <section class="quotes">
             <h4 class="quotes-title fw-bold">Quotes dan Motivasi Qurani</h4>
@@ -60,7 +64,7 @@
             <!-- Baris 1 -->
             <div class="row">
                 <!-- Kolom 1 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -71,7 +75,8 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -79,7 +84,7 @@
                 </div>
 
                 <!-- Kolom 2 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -90,7 +95,8 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -101,7 +107,7 @@
             <!-- Baris 2 -->
             <div class="row">
                 <!-- Kolom 1 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -112,7 +118,8 @@
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -120,7 +127,7 @@
                 </div>
 
                 <!-- Kolom 2 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -131,7 +138,8 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -142,7 +150,7 @@
             <!-- Baris 3 -->
             <div class="row">
                 <!-- Kolom 1 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -153,7 +161,8 @@
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -161,7 +170,7 @@
                 </div>
 
                 <!-- Kolom 2 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -172,7 +181,8 @@
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -183,7 +193,7 @@
             <!-- Baris 4 -->
             <div class="row">
                 <!-- Kolom 1 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -194,7 +204,8 @@
                             </h2>
                             <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -202,7 +213,7 @@
                 </div>
 
                 <!-- Kolom 2 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -213,7 +224,8 @@
                             </h2>
                             <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -224,7 +236,7 @@
             <!-- Baris 5 -->
             <div class="row">
                 <!-- Kolom 1 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -235,7 +247,8 @@
                             </h2>
                             <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -243,7 +256,7 @@
                 </div>
 
                 <!-- Kolom 2 -->
-                <div class="col-lg-6 mt-4 mb-4">
+                <div class="col-lg-6 mt-2 mb-2">
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -254,7 +267,8 @@
                             </h2>
                             <div id="collapseTen" class="accordion-collapse collapse s" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <strong>Ayat Al-Quran yang Berkaitan</strong>
+                                    </br>Konten menyesuaikan.
                                 </div>
                             </div>
                         </div>
@@ -266,11 +280,12 @@
 
         </section>
 
-        <!-- Footer -->
+        <!-- Footer
         <section class="footer">
-
-        </section>
+        </section> -->
     </div>
+    <!-- FOOTER -->
+    @include('footer')
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
