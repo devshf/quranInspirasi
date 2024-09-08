@@ -31,6 +31,6 @@
     </div>
 
     <div class="text-center p-3" style="background-color: #EAE7B1; color: black; border-top: 1px solid #3C6255;">
-        © Media Akselerasi & Nama Kita 2024. All rights reserved.
+        © Media Akselerasi 2024. All rights reserved.
     </div>
 </footer>

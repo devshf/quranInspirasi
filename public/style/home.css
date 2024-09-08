@@ -39,10 +39,16 @@
 
 .hero-section {
     margin: 0;
-    padding: 0;
+    /* padding-left: 75px; */
     position: relative;
-    height: 100vh; /* Pastikan section menutupi layar penuh */
+    height: 100vh;
 }
+
+.hero-image {
+    max-width: 100%;
+    object-fit: cover; 
+}
+
 
 .hero-section .col-lg-6 {
     padding-top: 50px; 

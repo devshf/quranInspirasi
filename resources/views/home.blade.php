@@ -17,13 +17,11 @@
 
 <body>
     @include('navbar')
-    
-        <!-- Hero Section -->
-         <!-- Hero Section -->
+    <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
             <div class="row">
-                <!-- Left Column (Text) -->
+                <!-- Kolom Text -->
                 <div class="col-lg-6 col-md-12 mt-3 mb-4">
                     <div class="card">
                         <div class="card-body">
@@ -34,11 +32,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- Right Column (Image) -->
+                <!-- Kolom Image -->
                 <div class="col-lg-6 col-md-12 position-relative p-0">
                     <div class="card-images">
                         <a class="hero-image-container" href="#">
-                            <img src="asset/gradasi-test.png" class="hero-image img-fluid" alt="Hero Image">
+                            <img src="asset/gradasi-test.png" class="hero-image" alt="Hero Image">
                         </a>
                     </div>
                 </div>
@@ -46,8 +44,7 @@
         </div>
     </section>
 
-
-        <div class="container">
+    <div class="container">
         <!-- Quotes Section -->
         <section class="quotes">
             <h4 class="quotes-title fw-bold">Quotes dan Motivasi Qurani</h4>
