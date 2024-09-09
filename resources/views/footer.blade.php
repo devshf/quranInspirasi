@@ -11,9 +11,9 @@
                     <!-- Menu Links -->
                     <div class="col-md-4 col-12 text-center text-md-start mb-3 mb-md-0">
                         <ul class="list-unstyled menu-footer">
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">Menu</a></li>
-                            <li><a href="">Menu</a></li>
+                            <li><a href="">Menu (Menyesuaikan)</a></li>
+                            <li><a href="">Menu (Menyesuaikan)</a></li>
+                            <li><a href="">Menu (Menyesuaikan)</a></li>
                         </ul>
                     </div>
 

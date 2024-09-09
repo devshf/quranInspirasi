@@ -4,7 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- Logo Title -->
+    <link rel="icon" type="image/x-icon" href="asset/logo.png" width="auto" height="auto">
     <title>Quran Inspirasi</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +70,7 @@
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Meluruskan Akidah</span>
                                 </button>
@@ -85,7 +90,7 @@
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Mempraktikan ibadah Shahih</span>
                                 </button>
@@ -108,7 +113,7 @@
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Menampilkan Akhlaq Mulia</span>
                                 </button>
@@ -128,7 +133,7 @@
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                <button class="accordion-button collapsed collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Memilih Hidup Sehat</span>
                                 </button>
@@ -151,7 +156,7 @@
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Mengasah Potensi Berpikir</span>
                                 </button>
@@ -171,7 +176,7 @@
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Memelihara Semangat Juang</span>
                                 </button>
@@ -194,7 +199,7 @@
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Terampil Mengatur Waktu</span>
                                 </button>
@@ -214,7 +219,7 @@
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Terampil Mengelola Urusan (First Think First)</span>
                                 </button>
@@ -237,7 +242,7 @@
                     <div class="accordion" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Hidup Produktif</span>
                                 </button>
@@ -257,7 +262,7 @@
                     <div class="accordion" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                     <img src="asset/theme-icon.png" alt="Logo" width="35" height="35" class="me-2">
                                     <span class="content">Meningkatkan Peran Sosial</span>
                                 </button>

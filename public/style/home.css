@@ -13,6 +13,27 @@
     --fwlight: 300;
 }
 
+.hero-section {
+    margin: 0;
+    /* padding-left: 75px; */
+    position: relative;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hero-section .col-lg-6 {
+    padding-top: 50px;
+}
+
+/* Style Quotes Section */
 .quotes-title {
     color: #eae7b1;
     display: flex;
@@ -37,28 +58,10 @@
     font-size: 14px;
 }
 
-.hero-section {
-    margin: 0;
-    /* padding-left: 75px; */
-    position: relative;
-    height: 100vh;
-}
-
-.hero-image {
-    max-width: 100%;
-    object-fit: cover; 
-}
-
-
-.hero-section .col-lg-6 {
-    padding-top: 50px; 
-}
-
-.hero-section {
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
+/* Mengurangi tinggi tombol accordion */
+.accordion-button {
+    padding: 8px 16px;
+    font-size: 14px;
 }
 
 /* Menghapus warna biru pada tombol accordion */
@@ -77,6 +80,23 @@
 .accordion-button:hover {
     background-color: #eae7b1;
     color: #3c6255;
+}
+
+.input-group .form-control {
+    height: 50px;
+    font-size: 14px;
+}
+
+.input-group-text {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .hero-section h4 {
@@ -103,33 +123,3 @@
     height: auto;
     object-fit: cover;
 } */
-
-.btn-main {
-    color: white;
-    background-color: #3c6255;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.btn-main:hover {
-    background-color: #eae7b1;
-    color: #3c6255;
-    font-weight: bold;
-}
-
-.input-group .form-control {
-    height: 50px;
-    font-size: 14px;
-}
-
-.input-group-text {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.input-group .form-control {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}

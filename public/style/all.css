@@ -1,10 +1,23 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #8FAA90;
+    background-color: #8faa90;
     font-size: 14px;
 }
 
 section {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.btn-main {
+    color: white;
+    background-color: #3c6255;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-main:hover {
+    background-color: #eae7b1;
+    color: #3c6255;
+    font-weight: bold;
 }

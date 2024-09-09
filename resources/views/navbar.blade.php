@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
+<div class="container d-flex align-items-start">
   <a class="navbar-brand" href="#">
             <img src="asset/logo.png" alt="Logo" width="auto" height="25">
         </a>
